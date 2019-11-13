@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="10" useXmlUI="false">
+    <theme name="Theme">
+        <val key="estilo principal.bgColor" value="ffff99" />
+        <font key="estilo principal.font" type="system" face="0" style="0" size="16" />
+        <val key="labelsidemenu.bgColor" value="000000" />
+        <val key="labelsidemenu.dis#bgColor" value="000000" />
+        <val key="labelsidemenu.dis#fgColor" value="ffffff" />
+        <font key="labelsidemenu.dis#font" type="system" face="0" style="0" size="16" />
+        <val key="labelsidemenu.dis#textDecoration" value="0" />
+        <val key="labelsidemenu.dis#transparency" value="255" />
+        <val key="labelsidemenu.fgColor" value="ffffff" />
+        <font key="labelsidemenu.font" type="system" face="0" style="0" size="16" />
+        <val key="labelsidemenu.textDecoration" value="0" />
+        <val key="labelsidemenu.transparency" value="255" />
+    </theme>
+</resource>
