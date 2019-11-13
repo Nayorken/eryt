@@ -399,18 +399,29 @@ public class MyApplication {
        
         formA.show();
 */
-       /*
+       
+       //swipe
+       
        Form hi = new Form("Swipe", new BoxLayout(BoxLayout.Y_AXIS));
-        hi.add(contacto("David Luiz", "921345678")).
-                add(contacto("Cristiano Ronaldo", "913123456")).
-                add(contacto("Sérgio Ramos", "912345678"));
+       
+       SwipeableContainer ct1 = contacto("David Luiz", "92833726");
+       SwipeableContainer ct2 = contacto("Cristiano Ronaldo", "913123456");
+       SwipeableContainer ct3 = contacto("Sérgio Ramos", "912345678");
+       SwipeableContainer ct4 = contacto("Pedro Fernandes", "916341527");
+       SwipeableContainer ct5 = contacto("Digo Sá", "93841528");
+       SwipeableContainer ct6 = contacto("Rita Antunes", "923714426");
+        hi.add(ct1);
+        hi.add(ct2);
+        hi.add(ct3);
+        hi.add(ct4);
+        hi.add(ct5);
+        hi.add(ct6);
         hi.show();
-*/
-       
-       
 
     }
-    /*
+    
+    // swipe funct
+    
      public SwipeableContainer contacto(String nome, String telefone) {
             MultiButton button = new MultiButton(nome);
             button.setTextLine2(telefone);
@@ -419,7 +430,7 @@ public class MyApplication {
             button.setIcon(icon);
             return new SwipeableContainer(FlowLayout.encloseCenterMiddle(new Button("Eliminar"), new Button("Arquivar")), button);
      }
-*/
+
 
     public void stop() {
         current = Display.getInstance().getCurrent();
